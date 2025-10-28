@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../media/背景.jpg);
+    background-image: url(./media/背景.jpg);
     background-attachment: fixed;
 }
 .home{
@@ -43,4 +43,5 @@ a{
 }
 a:hover{
     color: #3b69ca;
+
 }
