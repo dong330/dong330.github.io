@@ -18,14 +18,26 @@
      <ul>
         <li>
             <a href="https://baike.baidu.com/item/Html/97049" target="_blank">HTML</a>
-            <a href="./兴趣爱好.html" target="_blank">CSS</a>
+            <a href="https://baike.baidu.com/item/Css/5457" target="_blank">CSS</a>
             <a href="https://zh.wikipedia.org/wiki/%E4%B9%92%E4%B9%93%E7%90%83" target="_blank">乒乓</a>
-            <a href="./兴趣爱好.html" target="_blank">摄影</a>
+            <a href="https://baike.baidu.com/item/%E6%91%84%E5%BD%B1/6201" target="_blank">摄影</a>
+            <div id="app">
+                <input type="button" value="联系我" v-on:click="doIt">
+            </div>
         </li>
      </ul>
-     
+     <script src="../vue.js"></script>
+     <script>
+        var app = new Vue({
+            el:"#app",
+            methods:{
+                doIt:function(){
+                    alert('联系成功，感谢您的联系！')
+                }
+            }
+        })
+     </script>
     
     
 </body>
-
 </html>

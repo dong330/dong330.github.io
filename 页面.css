@@ -6,6 +6,8 @@
 body{
     background-image: url(./media/背景.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .home{
     margin: 50px auto;
@@ -43,5 +45,28 @@ a{
 }
 a:hover{
     color: #3b69ca;
-
 }
+#app{
+    display: inline-block;
+    background-color: rgba(170,180,220,0.9);
+    width: 120px;
+    padding: 5px 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #0d4b8d;
+    border-radius: 20px;
+}
+input[type="button"]{
+    background-color: rgba(170,180,220,0.9);
+    border:  rgba(170,180,220,0.9);
+    text-decoration: none;
+    color: #0d4b8d;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
